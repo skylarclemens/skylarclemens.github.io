@@ -5,11 +5,12 @@
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 		<link href = "css/bootstrap.css" rel = "stylesheet">
 		<link href = "css/styles.css" rel = "stylesheet">
+
 	</head>
 
 	<body>
 
-		<nav class = "navbar navbar-default navbar-fixed-top">
+		<!--<nav class = "navbar navbar-default navbar-fixed-top">
 			<div class = "container">
 				<a href = "#" class = "navbar-brand"></a>
 
@@ -29,20 +30,30 @@
 				</div>
 
 			</div>
-		</nav>
+		</nav>-->
 
 		<div class = "jumbotron">
 			<div class = "container">
 			<br>
-			<center><h1><font color = "white">SKYLAR</font></h1>
-			<h3><font color = "white">Personal Website</font></h3></center>
+			<center>
+				<h1><font color = "white">SKYLAR</font></h1>
+				<!--<h3><font color = "white">Personal Website</font></h3><br>-->
+				<a href="https://github.com/skylarclemens" target = "_blank"><img src="./images/github.png" alt="github" style="width:48px;height:48px;"></a>
+				<a href="https://www.linkedin.com/in/skylarclemens" target = "_blank"><img src="./images/linkedin.png" alt="linkedin" style="width:48px;height:48px;"></a>
+				<a href="./docs/SkylarClemens.pdf" target = "_blank"><img src="./images/resume2.png" alt="resume" style="width:48px;height:48px;"></a>
+				<h4><a data-scroll href="#contact"><font color = "white">Contact</font></a></h4>
+				<br>
+				<br>
+				<br>
+				<a data-scroll href="#me"><span class="glyphicon glyphicon-chevron-down" style="font-size: 1.5em; color: white" aria-hidden="true"></span></a>
+			</center>
 			</div>
 
 			<!--<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>-->
 		</div>
-
+		<span id = "me"></span>
 		<center><h1><font color = "#D3D3D3">SKYLAR CLEMENS</font></h1></center>
-		<hr width = "50%">
+		<hr width = "60%">
 
 		<div class = "row">
 			<div class = "col-md-1"> </div>
@@ -52,6 +63,16 @@
 			<div class = "col-md-8">
 				<p> Hello, my name is Skylar Clemens.<br>
 					I currently attend Binghamton University to study Computer Science.</p>
+			</div>
+		</div>
+		<hr width = "60%">
+
+		<div class = "row">
+			<span id = "contact"></span>
+			<center><h1><font color = "#D3D3D3">CONTACT</font></h1></center>
+			<div class = "col-md-1"> </div>
+			<div class = "col-md-8">
+				<!--<h4>Email: </h4>-->
 			</div>
 		</div>
 		<!--<hr width = "90%">
@@ -64,7 +85,12 @@
 			<div class = "col-md-8"></div>
 		</div>-->
 		<!-- <h1>Skylar Clemens</h1> -->
+
 		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src = "js/bootstrap.js"></script>
+		<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+		<script>
+    		smoothScroll.init();
+		</script>
 	</body>
 </html>
