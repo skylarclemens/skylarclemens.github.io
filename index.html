@@ -61,88 +61,84 @@
 			</div>
 			<div class = "col-md-8">
 				<p>Hello, my name is Skylar Clemens.<br>
-					I currently attend Binghamton University to study Computer Science.<br>
+					I currently attend <a href="http://binghamton.edu">Binghamton University</a> to study Computer Science.<br>
 
 					<br>(This website is currently under construction)
+
 				</p>
 			</div>
 		</div>
 
 		<hr width = "60%">
 
-		<div class = "row">
-			<span id = "interests"></span>
-			<center><h1><font color = "#D3D3D3">INTERESTS</font></h1></center>
-			<div class = "col-md-2"></div>
-			<div class = "col-md-2">
-				<!--<img src="./images/prog.png" alt = "Programming" style="width:64px;height:64px;">-->
-			</div>
-			<div class = "col-md-4">
-			</div>
-			<div class = "col-md-2">
-				<h4 align = "right"><font color = "#D3D3D3">Programming</font></h4>
-			</div>
+		<span id = "interests"></span>
+		<center><h1><font color = "#D3D3D3">INTERESTS</font></h1></center>
 
-		</div>
-
-		<div class = "row">
-			<div class = "col-md-2"></div>
-			<div class = "col-md-8">
-				<h4><font color = "#D3D3D3">Design</font></h4>
-			</div>
-		</div>
-
-		<div class = "row">
-			<div class = "col-md-2"></div>
-			<div class = "col-md-8">
-				<h4 align = "right"><font color = "#D3D3D3">Videography</font></h4>
-			</div>
-			<!--<div class = "col-md-2">
-				<div class="embed-responsive embed-responsive-16by9">
- 					<iframe class="embed-responsive-item" src="https://www.facebook.com/video/embed?video_id=1629931723896815" width = "300"></iframe>
-				</div>
+		<div id = "interest">
+			<h4 align = "center"><font color = "#D3D3D3">Programming</font></h4>
+			<!--<div id = "hover-over">
+				<center><i>Programming Languages</i>
+				<p>C++, C, Python, Swift</p>
+				<i>Web Design</i><br>
+				<p>HTML, CSS, JavaScript</p>
+				</center>
 			</div>-->
 		</div>
 
-		<div class = "row">
-			<div class = "col-md-2"></div>
-			<div class = "col-md-8">
-				<h4><font color = "#D3D3D3">Outdoors</font></h4>
+		<div id = "interest">
+			<h4 align = "center"><font color = "#D3D3D3">Design</font></h4>
+			<div id = "hover-over">
+				<center><p>Photoshop</p></center>
 			</div>
 		</div>
 
-		<div class = "row">
-			<div class = "col-md-2"></div>
-			<div class = "col-md-8">
-				<h4 align = "right"><font color = "#D3D3D3">TV</font></h4>
+		<div id = "interest">
+			<h4 align = "center"><font color = "#D3D3D3">Videography</font></h4>
+			<div id = "hover-over">
+				<p>Hello</p>
 			</div>
 		</div>
 
-		<div class = "row">
-			<div class = "col-md-2"></div>
-			<div class = "col-md-8">
-				<h4><font color = "#D3D3D3">Music</font></h4>
+		<div id = "interest">
+			<h4 align = "center"><font color = "#D3D3D3">Outdoors</font></h4>
+			<div id = "hover-over">
 			</div>
 		</div>
 
-		<div class = "row">
-			<div class = "col-md-2"></div>
-			<div class = "col-md-6">
+		<div id = "interest">
+			<h4 align = "center"><font color = "#D3D3D3">TV</font></h4>
+			<div id = "hover-over">
 			</div>
-			<div class = "col-md-2">
-				<h4 align = "right"><font color = "#D3D3D3">Video Games</font></h4>
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#D3D3D3">Music</font></h4>
+			<div id = "hover-over">
+			</div>
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#D3D3D3">Video Games</font></h4>
+			<div id = "hover-over">
 			</div>
 		</div>
 
 		<hr width = "60%">
 
-		<div class = "row">
-			<span id = "contact"></span>
-			<center><h1><font color = "#D3D3D3">CONTACT</font></h1></center>
-			<center><h4><font color = "#D3D3D3">Email: </font></h4> <p>sclemen3@binghamton.edu</font></u></center>
-		</div>
+		<span id = "contact">
+		<center><h1><font color = "#D3D3D3">CONTACT</font></h1></center>
+		<center><h4><font color = "#D3D3D3">Email: </font></h4> <p>sclemen3@binghamton.edu</font></u></center>
+		</span>
+
+		<hr width = "90%">
+		<center> Copyright &copy; 2016 Skylar Clemens</center><br>
 
 		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script> 
+			$("#interest").on('mouseenter mouseleave', function () {
+    			$(this).find("#hover-over").stop().slideToggle();
+			});
+		</script>
 		<script src = "js/bootstrap.js"></script>
 		<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
 		<script>
