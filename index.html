@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Skylar Clemens</title>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<link href = "css/bootstrap.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+
+	</head>
+
+	<body>
+
+		<!--<nav class = "navbar navbar-default navbar-fixed-top">
+			<div class = "container">
+				<a href = "#" class = "navbar-brand"></a>
+
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+						<li class = "active"><a href = "#">About</a></li>
+						<li><a href = "./docs/SkylarClemens.pdf" target = "_blank">R&eacute;sum&eacute;</a></li>
+						<li><a href = "https://www.linkedin.com/in/skylarclemens" target = "_blank">LinkedIn</a></li>
+						<li><a href = "#">Contact</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>-->
+
+		<div class = "jumbotron">
+			<div class = "container">
+			<br>
+			<center>
+				<h1><font color = "white">SKYLAR</font></h1>
+				<!--<h3><font color = "white">Personal Website</font></h3><br>-->
+				<a href="https://github.com/skylarclemens" target = "_blank"><img src="./images/github.png" alt="github" style="width:48px;height:48px;"></a>
+				<a href="https://www.linkedin.com/in/skylarclemens" target = "_blank"><img src="./images/linkedin.png" alt="linkedin" style="width:48px;height:48px;"></a>
+				<a href="./docs/SkylarClemens.pdf" target = "_blank"><img src="./images/resume2.png" alt="resume" style="width:48px;height:48px;"></a>
+				<h4><a data-scroll href="#contact"><font color = "white">Contact</font></a></h4>
+				<br>
+				<br>
+				<a data-scroll href="#me"><span class="glyphicon glyphicon-chevron-down" style="font-size: 1.5em; color: white" aria-hidden="true"></span></a>
+			</center>
+			</div>
+
+			<!--<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>-->
+		</div>
+		<span id = "me"></span>
+		<center><h1><font color = "#555555">SKYLAR CLEMENS</font></h1></center>
+		<hr width = "60%">
+
+		<div class = "row">
+			<div class = "col-md-1"> </div>
+			<div class = "col-md-3">
+				<center><img src="./images/me4.png" alt="Me" style="width:315px;height:400px;"></center>
+			</div>
+			<div class = "col-md-8">
+				<p>Hello, my name is Skylar Clemens.<br>
+					I currently attend <a href="http://binghamton.edu">Binghamton University</a> to study Computer Science.<br>
+
+					<br>
+					<center><img src="./images/underconstruction.png" alt="UC" style="width:400px;height:400px;"></center>
+
+				</p>
+			</div>
+		</div>
+
+		<hr width = "60%">
+
+		<span id = "interests"></span>
+		<center><h1><font color = "#555555">INTERESTS</font></h1></center>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#555555">Programming</font></h4>
+			<!--<div id = "hover-over">
+				<center><i>Programming Languages</i>
+				<p>C++, C, Python, Swift</p>
+				<i>Web Design</i><br>
+				<p>HTML, CSS, JavaScript</p>
+				</center>
+			</div>-->
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#555555">Design</font></h4>
+			<div id = "hover-over">
+				<center><p>Photoshop</p></center>
+			</div>
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#555555">Videography</font></h4>
+			<div id = "hover-over">
+				<p>Hello</p>
+			</div>
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#555555">Outdoors</font></h4>
+			<div id = "hover-over">
+			</div>
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#555555">TV</font></h4>
+			<div id = "hover-over">
+			</div>
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#555555">Music</font></h4>
+			<div id = "hover-over">
+			</div>
+		</div>
+
+		<div id = "interest">
+			<h4 align = "center"><font color = "#555555">Video Games</font></h4>
+			<div id = "hover-over">
+			</div>
+		</div>
+
+		<hr width = "60%">
+
+		<span id = "contact">
+		<center><h1><font color = "#555555">CONTACT</font></h1></center>
+		<center><h4><font color = "#555555">Email: </font></h4> <p>sclemen3@binghamton.edu</font></u></center>
+		</span>
+
+		<hr width = "90%">
+		<center> Copyright &copy; 2017 Skylar Clemens</center><br>
+
+		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script> 
+			$("#interest").on('mouseenter mouseleave', function () {
+    			$(this).find("#hover-over").stop().slideToggle();
+			});
+		</script>
+		<script src = "js/bootstrap.js"></script>
+		<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+		<script>
+    		smoothScroll.init();
+		</script>
+	</body>
+</html>
